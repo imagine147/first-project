@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Young+Serif&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(30, 54%, 90%);
+  font-family: "Young Serif", serif;
+}
+
+.container {
+  width: 45%;
+  margin: 200px auto;
+  background-color: hsl(0, 0%, 100%);
+  padding: 1rem;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+}
+
+img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+#prep {
+  background-color: hsl(30, 18%, 87%);
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+#prep h4 {
+  color: hsl(14, 77%, 41%);
+}
+
+#prep li {
+  margin-left: 2rem;
+  padding-bottom: 5px;
+  padding-left: 15px;
+  font: 0.8rem;
+}
+
+#ing li {
+  margin-left: 2rem;
+}
+
+#ing h3 {
+  color: hsl(14, 45%, 36%);
+}
+
+#inst li {
+  margin: 2rem;
+}
+
+#inst h3 {
+  color: hsl(14, 45%, 36%);
+}
+
+#nut h3 {
+  color: hsl(14, 45%, 36%);
+}
+
+#sim {
+  font-weight: bold;
+}
+
+#p1 {
+  font-weight: 400;
+}
+
+.tabs {
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid hsl(30, 18%, 87%);
+}
+
+.tabs p {
+  width: 50%;
+  margin-left: 1.5rem;
+}
+
+#tab {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+p,
+li {
+  color: hsl(30, 10%, 34%);
+}
